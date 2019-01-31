@@ -1,4 +1,6 @@
-﻿namespace Methods
+﻿using System;
+
+namespace Methods
 {
     public class Point
     {
@@ -13,8 +15,7 @@
 
         public void Move(int x, int y)
         {
-            this.X = x;
-            this.Y = y;
+            Move(new Point(x, y));
         }
 
         public void Move(Point newLocation)
