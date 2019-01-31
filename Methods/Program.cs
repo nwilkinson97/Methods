@@ -6,7 +6,11 @@
         {
             UsePoint();
             UseCalculator();
+            UsingTheOutKeyword();
+        }
 
+        private static void UsingTheOutKeyword()
+        {
             // Note Run Code and you will receive an error because 
             //     a string cannot be converted to an integer
             //var number = int.Parse("abc");
@@ -19,7 +23,7 @@
             //  case we receive the result which is a boolean value
             //  and if applicable and successfully convert the string
             //  to an integer we can use the value parsed out to 'number'
-            var result = int.TryParse("8658", out int number);    
+            var result = int.TryParse("8658", out int number);
 
             //  If Result is (TRUE) the display the integer value
             if (result)
