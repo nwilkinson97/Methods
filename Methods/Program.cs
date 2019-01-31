@@ -14,6 +14,11 @@
             //  Pass the X & Y Coordinates as a new Point and Display the Location
             point.Move(new Point(40, 60));
             System.Console.WriteLine("Point is at x {0} y {1}", point.X, point.Y);
+
+            // Lets now Change things up and pass a null value to the Move Method
+            // Note:  When we run the code an error is thrown.  Because we have not
+            //        done anything to handle the error.  
+            point.Move(null);
         }
     }
 }
