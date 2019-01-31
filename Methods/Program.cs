@@ -22,10 +22,9 @@
                 //        done anything to handle the error.  
                 point.Move(null);
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
-
-                throw;
+                System.Console.WriteLine(ex.Message);
             }
         }
     }
