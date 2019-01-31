@@ -30,6 +30,10 @@
             {
                 System.Console.WriteLine(number);
             }
+            else
+            {
+                System.Console.WriteLine("Conversion Failed.");
+            }
         }
 
         private static void UseCalculator()
