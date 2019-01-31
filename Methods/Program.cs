@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             UsePoint();
+            UseCalculator();
+        }
 
+        private static void UseCalculator()
+        {
             // Create new Instance of Calculator Class
             var calculator = new Calculator();
 
@@ -13,7 +17,7 @@
             System.Console.WriteLine(calculator.Add(1, 2));
             System.Console.WriteLine(calculator.Add(1, 2, 3));
             System.Console.WriteLine(calculator.Add(1, 2, 3, 4));
-            System.Console.WriteLine(calculator.Add(1, 2, 3,4 ,5));
+            System.Console.WriteLine(calculator.Add(1, 2, 3, 4, 5));
 
             // Or as an integer array like this
             System.Console.WriteLine(calculator.Add(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }));
