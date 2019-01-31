@@ -11,7 +11,21 @@
             //     a string cannot be converted to an integer
             //var number = int.Parse("abc");
 
+            //  Here we can Implement the TryParse Method which 
+            //  allows us to implemnt a new integer variable inline
+            //  and determine if the function succeeded.
+            //  Using the 'out' keyword allows us to return two
+            //  different pieces of relevant information.  In this
+            //  case we receive the result which is a boolean value
+            //  and if applicable and successfully convert the string
+            //  to an integer we can use the value parsed out to 'number'
+            var result = int.TryParse("abc", out int number);    
 
+            //  If Result is (TRUE) the display the integer value
+            if (result)
+            {
+                System.Console.WriteLine(number);
+            }
         }
 
         private static void UseCalculator()
