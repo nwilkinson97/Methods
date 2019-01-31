@@ -4,6 +4,11 @@
     {
         static void Main(string[] args)
         {
+            UsePoint();
+        }
+
+        private static void UsePoint()
+        {
             try
             {
                 // Create an Instance of the Point Class
