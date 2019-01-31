@@ -9,6 +9,7 @@
 
         private static void UsePoint()
         {
+            // Quick Actions Keyboard Shortcut was used here to Extract Method and Name the Function
             try
             {
                 // Create an Instance of the Point Class
