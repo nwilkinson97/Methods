@@ -9,7 +9,9 @@
 
             // Note Run Code and you will receive an error because 
             //     a string cannot be converted to an integer
-            var number = int.Parse("abc");
+            //var number = int.Parse("abc");
+
+
         }
 
         private static void UseCalculator()
