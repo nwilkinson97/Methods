@@ -19,7 +19,7 @@
             //  case we receive the result which is a boolean value
             //  and if applicable and successfully convert the string
             //  to an integer we can use the value parsed out to 'number'
-            var result = int.TryParse("abc", out int number);    
+            var result = int.TryParse("8658", out int number);    
 
             //  If Result is (TRUE) the display the integer value
             if (result)
